@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+
+  font-family: inter;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  background-color:hsl(0, 0%, 8%);
+
+}
+
+h3{
+    color: greenyellow;
+    padding-bottom: 20px;
+}
+
+.social-links{
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    background-color:hsl(0, 0%, 12%);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    margin-top: 12px;
+    color: white;
+    border: none;
+    text-align: center;
+    height: 30px;font-weight: 600;
+}
+button:hover{
+    background-color: greenyellow;
+    color: hsl(0, 0%, 12%);
+}
